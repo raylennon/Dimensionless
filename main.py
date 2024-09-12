@@ -54,7 +54,7 @@ while True:
         while pos + length + elength > 0:
 
             offscreen_canvas.Clear()
-            length = graphics.DrawText(offscreen_canvas, font, pos, 20, textColor, to_print)
+            length = graphics.DrawText(offscreen_canvas, font, pos, 10, textColor, to_print)
             pos -= 1
             time.sleep(delay)
             offscreen_canvas = matrix.SwapOnVSync(offscreen_canvas)
