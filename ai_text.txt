@@ -1,16 +1,14 @@
-Froude Number: Fr = (v) / (√gL) : the ratio of a body’s inertia to gravitational forces
+Froude Number: Fr = (v) / √(gL) : the ratio of a body’s inertia to gravitational forces
 Mach Number: Ma = (v) / (c) : the ratio of the speed of an object moving through a fluid to the speed of sound in that fluid
 Weber Number: We = (ρv²L) / (σ) : the ratio of inertial forces to surface tension forces
 Euler Number: Eu = (ΔP) / (ρv²) : the ratio of pressure forces to inertial forces
 Biot Number: Bi = (hL) / (k) : the ratio of internal thermal resistance to surface thermal resistance
 Schmidt Number: Sc = (ν) / (D) : the ratio of momentum diffusivity (viscosity) to mass diffusivity
 Péclet Number: Pe = (vL) / (α) : the ratio of advective to diffusive transport rates
-Grashof Number: Gr = (gβ(Tₛ - T∞)L³) / (ν²) : the ratio of buoyancy to viscous forces in a fluid
-Stanton Number: St = (h) / (ρvCₚ) : the ratio of heat transferred into a fluid to the thermal capacity of the fluid
-Thiele Modulus: φ = (L) / (√D/k) : the ratio of reaction rate to diffusion rate in porous catalysts
-Damköhler Number: Da = (kC₀ⁿ⁻¹L) / (v) : the ratio of reaction rate to the rate of transport phenomena
+Grashof Number: Gr = (gβ(Ts - T∞) L^3) / (ν²) : the ratio of buoyancy to viscous forces in a fluid
+Stanton Number: St = (h) / (ρ v Cp) : the ratio of heat transferred into a fluid to the thermal capacity of the fluid
+Thiele Modulus: : the ratio of reaction rate to diffusion rate in porous catalysts
 Knudsen Number: Kn = (λ) / (L) : the ratio of the molecular mean free path length to a representative physical length scale
 Sherwood Number: Sh = (KL) / (D) : the ratio of convective mass transfer to diffusive mass transport
 Fourier Number: Fo = (αt) / (L²) : the ratio of heat conduction rate to the rate of thermal energy storage
 Cauchy Number: Ca = (ρv²) / (E) : the ratio of inertial forces to elastic forces
-Richardson Number: Ri = (gΔθL) / (θ₀v²) : the ratio of potential to kinetic energy in a flow
