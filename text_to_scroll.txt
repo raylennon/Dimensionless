@@ -1,1 +1,3 @@
-Re = (ρvL) / μ
+Reynold's Number: Re = (ρvL) / μ : the ratio of inertial forces to viscious forces in a flowing fluid
+Prandtl Number: Pr = (Cp μ) / k : The ratio of kinematic viscosity and thermal diffusivity of a fluid
+Nusselt Number: Nu = (hl) / k : The ratio of convective to conductive heat transfer across the boundary over a given length
