@@ -40,20 +40,23 @@ file = open("./text_to_scroll.txt", "r")
 lines = file.readlines()
 
 out = []
-for line in lines:
+while True:
+    for line in lines:
+        
+        to_print = line[:-1]
 
-    pos = offscreen_canvas.width
+        pos = offscreen_canvas.width
 
-    length = 0
-    elength = 0
+        length = 0
+        elength = 0
 
-    while pos + length + elength > 0:
+        while pos + length + elength > 0:
 
-        offscreen_canvas.Clear()
-        length = graphics.DrawText(offscreen_canvas, font, pos, 20, textColor, line)
-        pos -= 1
-        time.sleep(delay)
-        offscreen_canvas = matrix.SwapOnVSync(offscreen_canvas)
+            offscreen_canvas.Clear()
+            length = graphics.DrawText(offscreen_canvas, font, pos, 20, textColor, to_print)
+            pos -= 1
+            time.sleep(delay)
+            offscreen_canvas = matrix.SwapOnVSync(offscreen_canvas)
 
 
-    matrix.Clear()
+        matrix.Clear()
