@@ -16,7 +16,7 @@ from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 delay = 0.01
 options = RGBMatrixOptions()
-options.rows = 64
+options.rows = 32
 options.cols = 64
 options.chain_length = 1
 options.parallel = 1
